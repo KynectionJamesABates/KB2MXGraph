@@ -1,5 +1,5 @@
 <mxEditor defaultGroup="group" defaultEdge="connector">
-	<include name="config/editor-commons.xml"/>
+	<include name="https://raw.githubusercontent.com/KynectionJamesABates/KB2MXGraph/master/javascript/examples/editors/config/editor-commons.xml"/>
 	<add as="onInit"><![CDATA[
 		function ()
 		{
@@ -245,7 +245,7 @@
 				<add as="fontSize" value="10"/>
 				<add as="align" value="center"/>
 				<add as="verticalAlign" value="middle"/>
-				<add as="image" value="images/draw/mxlogo.jpg"/>
+				<add as="image" value="https://raw.githubusercontent.com/KynectionJamesABates/KB2MXGraph/master/javascript/examples/editors/images/draw/mxlogo.jpg"/>
 			</add>
 		</mxStylesheet>
 		<mxGraphModel as="model">
@@ -287,7 +287,7 @@
 		</mxGraphModel>
 	</mxGraph>
 	<mxDefaultToolbar as="toolbar">
-		<add as="connect" mode="connect" icon="images/connect.gif"><![CDATA[
+		<add as="connect" mode="connect" icon="https://raw.githubusercontent.com/KynectionJamesABates/KB2MXGraph/master/javascript/examples/editors/images/connect.gif"><![CDATA[
 			function (editor)
 			{
 				if (editor.defaultEdge != null)
@@ -296,7 +296,7 @@
 				}
 			}
 		]]></add>
-		<add as="connect" mode="connect" icon="images/straight.gif"><![CDATA[
+		<add as="connect" mode="connect" icon="https://raw.githubusercontent.com/KynectionJamesABates/KB2MXGraph/master/javascript/examples/editors/images/straight.gif"><![CDATA[
 			function (editor)
 			{
 				if (editor.defaultEdge != null)
@@ -305,7 +305,7 @@
 				}
 			}
 		]]></add>
-		<add as="connect" mode="connect" icon="images/arrow.gif"><![CDATA[
+		<add as="connect" mode="connect" icon="https://raw.githubusercontent.com/KynectionJamesABates/KB2MXGraph/master/javascript/examples/editors/images/arrow.gif"><![CDATA[
 			function (editor)
 			{
 				if (editor.defaultEdge != null)
@@ -315,19 +315,19 @@
 			}
 		]]></add>
 		<br/><br/>
-		<add as="Text" template="text" icon="images/text.gif"/>
-		<add as="Container" template="container" icon="images/swimlane.gif"/>
-		<add as="Rectangle" template="rectangle" icon="images/rectangle.gif"/>
-		<add as="Rounded" template="rounded" icon="images/rounded.gif"/>
-		<add as="Ellipse" template="shape" style="ellipse" icon="images/ellipse.gif"/>
-		<add as="Double Ellipse" template="shape" style="doubleEllipse" icon="images/doubleellipse.gif"/>
-		<add as="Rhombus" template="shape" style="rhombus" icon="images/rhombus.gif"/>
-		<add as="Triangle" template="actor" style="triangle" icon="images/triangle.gif"/>
-		<add as="Hexagon" template="cloud" style="hexagon" icon="images/hexagon.gif"/>
-		<add as="Actor" template="actor" style="actor" icon="images/actor.gif"/>
-		<add as="Cylinder" template="shape" style="cylinder" icon="images/cylinder.gif"/>
-		<add as="Cloud" template="cloud" style="cloud" icon="images/cloud.gif"/>
-		<add as="Line" template="hline" style="hline" icon="images/hline.gif"/>
-		<add as="Image" template="image" icon="images/image.gif"/>
+		<add as="Text" template="text" icon="https://raw.githubusercontent.com/KynectionJamesABates/KB2MXGraph/master/javascript/examples/editors/images/text.gif"/>
+		<add as="Container" template="container" icon="https://raw.githubusercontent.com/KynectionJamesABates/KB2MXGraph/master/javascript/examples/editors/images/swimlane.gif"/>
+		<add as="Rectangle" template="rectangle" icon="https://raw.githubusercontent.com/KynectionJamesABates/KB2MXGraph/master/javascript/examples/editors/images/rectangle.gif"/>
+		<add as="Rounded" template="rounded" icon="https://raw.githubusercontent.com/KynectionJamesABates/KB2MXGraph/master/javascript/examples/editors/images/rounded.gif"/>
+		<add as="Ellipse" template="shape" style="ellipse" icon="https://raw.githubusercontent.com/KynectionJamesABates/KB2MXGraph/master/javascript/examples/editors/images/ellipse.gif"/>
+		<add as="Double Ellipse" template="shape" style="doubleEllipse" icon="https://raw.githubusercontent.com/KynectionJamesABates/KB2MXGraph/master/javascript/examples/editors/images/doubleellipse.gif"/>
+		<add as="Rhombus" template="shape" style="rhombus" icon="https://raw.githubusercontent.com/KynectionJamesABates/KB2MXGraph/master/javascript/examples/editors/images/rhombus.gif"/>
+		<add as="Triangle" template="actor" style="triangle" icon="https://raw.githubusercontent.com/KynectionJamesABates/KB2MXGraph/master/javascript/examples/editors/images/triangle.gif"/>
+		<add as="Hexagon" template="cloud" style="hexagon" icon="https://raw.githubusercontent.com/KynectionJamesABates/KB2MXGraph/master/javascript/examples/editors/images/hexagon.gif"/>
+		<add as="Actor" template="actor" style="actor" icon="https://raw.githubusercontent.com/KynectionJamesABates/KB2MXGraph/master/javascript/examples/editors/images/actor.gif"/>
+		<add as="Cylinder" template="shape" style="cylinder" icon="https://raw.githubusercontent.com/KynectionJamesABates/KB2MXGraph/master/javascript/examples/editors/images/cylinder.gif"/>
+		<add as="Cloud" template="cloud" style="cloud" icon="https://raw.githubusercontent.com/KynectionJamesABates/KB2MXGraph/master/javascript/examples/editors/images/cloud.gif"/>
+		<add as="Line" template="hline" style="hline" icon="https://raw.githubusercontent.com/KynectionJamesABates/KB2MXGraph/master/javascript/examples/editors/images/hline.gif"/>
+		<add as="Image" template="image" icon="https://raw.githubusercontent.com/KynectionJamesABates/KB2MXGraph/master/javascript/examples/editors/images/image.gif"/>
 	</mxDefaultToolbar>
 </mxEditor>
